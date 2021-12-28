@@ -1,13 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "inspx",
   "short_name": "inspx",
   "version": "1.0.0",
   "description": "Pixel perfect layout inspection.",
   "icons": {},
   "permissions": [],
-  "browser_action": {
-    "default_title": "inspx",
-    "default_popup": "index.html"
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/icons/favicon-16.png",
+      "32": "/icons/favicon-32.png",
+      "48": "/icons/favicon-48.png",
+      "128": "/icons/favicon-128.png"
+    }
   }
 }
