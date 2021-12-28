@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "inspx",
+  "short_name": "inspx",
+  "version": "1.0.0",
+  "description": "Pixel perfect layout inspection.",
+  "icons": {},
+  "permissions": [],
+  "browser_action": {
+    "default_title": "inspx",
+    "default_popup": "index.html"
+  }
+}
